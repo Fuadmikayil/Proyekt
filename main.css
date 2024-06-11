@@ -1,0 +1,15 @@
+.main_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.main_section>.hiro_img{
+    width: 80%;
+    height: 90vh;
+    object-fit: cover;
+
+}

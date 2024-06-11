@@ -1,0 +1,107 @@
+.main>.select{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.main>.select>.div_main{
+    width: 100%;
+    height: 100%;
+}
+.main>.select>.div_main:hover{
+    scale: 2rem;
+}
+.main>.select>.div_main>.div_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.main>.select>.div_main>.div_img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .9s ease-in-out;
+}
+/* CSS */
+.main>.select>.div_main>.div_img>.div_text {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 4px;
+  background-color: rgba(255, 255, 255, 0.163);
+  border-radius: 9px;
+}
+.main>.select>.div_main>.div_img:hover img{
+  filter: brightness(50%);
+
+}
+
+.main>.select>.div_main>.div_img>.div_text::after,
+.select>.div_main>.div_img>.div_text::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.main>.select>.div_main>.div_img>.div_text::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.main>.select>.div_main>.div_img>.div_text::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.main>.select>.div_main>.div_img>.div_text:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.main>.select>.div_main>.div_img>.div_text:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.main>.select>.div_main>.div_img>.div_text:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+.main>.head>h3 {
+  opacity: 0;
+  transition: opacity 1s;
+  line-height: 30px;
+}

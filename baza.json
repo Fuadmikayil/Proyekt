@@ -1,0 +1,253 @@
+{
+    "Logo": [
+        "Photos/eb_logo_header.png"
+    ],
+    "Gender": [
+        {
+            "MenuSelect": "Man",
+            "linkMenu": "#",
+            "foto": "Photos/background_man.jpg"
+        },
+        {
+            "MenuSelect": "Woman",
+            "linkMenu": "#",
+            "foto": "Photos/background_woman.jpg"
+        },
+        {
+            "MenuSelect": "Baby",
+            "linkMenu": "#",
+            "foto": "Photos/background_baby.jpg"
+        }
+    ],
+    "discount": [
+        "► and orders over 200€. Exclusions may apply.",
+        "Use the code MAY35  to get a 35% off - Valid on items with ★ ►"
+    ],
+    "Man": {
+        "hiro_wrapper":["Photos/hiro_man.jpg"],
+        "CLOTHING": {
+            "T-SHİRTS": [
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "CLOTHING": [
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "SHİRTS": [
+                {
+                    "name": "OUR LEGACY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "BURBERRY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "VALENTINO",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "TOM FORD",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ]
+        },
+        "FOOTWEAR": {
+            "BOOTS": [
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "SNEAKERS": [
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "ALEXANDER MCQUEEN",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "FLATS": [
+                {
+                    "name": "OUR LEGACY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "BURBERRY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "VALENTINO",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "TOM FORD",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "LOAFERS": [
+                {
+                    "name": "OUR LEGACY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "BURBERRY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "VALENTINO",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "TOM FORD",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ],
+            "SANDALS": [
+                {
+                    "name": "OUR LEGACY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "BURBERRY",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "VALENTINO",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                },
+                {
+                    "name": "TOM FORD",
+                    "İmg": "#",
+                    "Price": "70.00 azn"
+                }
+            ]
+        }
+    },
+    "Woman": {
+        "hiro_wrapper":["Photos/hiro_woman.jpg"]
+    },
+    "Baby": {
+        "hiro_wrapper":["Photos/hiro_baby.jpg"]
+    },
+    "Menu": [
+        {
+            "MenuSelect": "NEW IN",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "CLOTHING",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "FOOTWEAR",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "ACCESSORIES",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "BAGS",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "SALE",
+            "linkMenu": "#"
+        },
+        {
+            "MenuSelect": "DESIGNERS",
+            "linkMenu": "#"
+        }
+    ],
+    "Menu_icon": [
+        {
+            "Menuİcon": "bx bx-search",
+            "MenuLink": "#",
+            "Select_num": []
+        },
+        {
+            "Menuİcon": "bx bx-heart",
+            "MenuLink": "#",
+            "Select_num": [
+                "#",
+                "#",
+                "#",
+                "#",
+                635
+            ]
+        },
+        {
+            "Menuİcon": "bx bx-cart",
+            "MenuLink": "#",
+            "Select_num": [
+                57,
+                57585,
+                557,
+                787
+            ]
+        }
+    ]
+}
