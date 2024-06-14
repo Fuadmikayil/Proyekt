@@ -79,9 +79,64 @@
                     "Price": "€ 100.00"
                 },
                 {
-                    "name": "TOM FORD",
-                    "İmg": "#",
-                    "Price": "70.00 azn"
+                    "name": "CASABLANCA",
+                    "İmg": "Photos/SHİRTS4.jpeg",
+                    "Price": "€ 210.00"
+
+                },
+                {
+                    "name": "MARGARET HOWELL",
+                    "İmg": "Photos/SHİRTS5.jpeg",
+                    "Price": "€ 190.00"
+
+                },
+                {
+                    "name": "MARGARET HOWELL",
+                    "İmg": "Photos/SHİRTS6.jpeg",
+                    "Price": "€ 190.00"
+
+                },
+                {
+                    "name": "BOSS",
+                    "İmg": "Photos/SHİRTS7.jpeg",
+                    "Price": "€ 90.00"
+
+                },
+                {
+                    "name": "VIVIENNE WESTWOOD",
+                    "İmg": "Photos/SHİRTS8.jpeg",
+                    "Price": "€ 240.00"
+
+                },
+                {
+                    "name": "PARAJUMPERS",
+                    "İmg": "Photos/SHİRTS9.jpeg",
+                    "Price": "€ 180.00"
+
+                },
+                {
+                    "name": "MAISON KITSUNÉ",
+                    "İmg": "Photos/SHİRTS10.jpeg",
+                    "Price": "€ 140.00"
+
+                },
+                {
+                    "name": "BOSS",
+                    "İmg": "Photos/SHİRTS7.jpeg",
+                    "Price": "€ 90.00"
+
+                },
+                {
+                    "name": "VIVIENNE WESTWOOD",
+                    "İmg": "Photos/SHİRTS8.jpeg",
+                    "Price": "€ 240.00"
+
+                },
+                {
+                    "name": "PARAJUMPERS",
+                    "İmg": "Photos/SHİRTS9.jpeg",
+                    "Price": "€ 180.00"
+
                 }
             ]
         },

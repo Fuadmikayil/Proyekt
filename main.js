@@ -44,8 +44,11 @@ const selectMenu = async (sec) => {
         product_forher.append(product_div);
 
     });
-    Selection_forher.append(Selection_text,product_forher);
-    main_section.append(hiro_img, Selection_forher);
-   
-
+    Selection_forher.append(product_forher);
+    main_section.append(hiro_img,Selection_text, Selection_forher);
+    Selection_forher.addEventListener('mousemove', function(e) {
+        var mouseX = e.clientX; // Mouse'un X koordinatı
+        product_forher.style.transform = `translate( ${-mouseX}px)`;
+    });
+    
 }
