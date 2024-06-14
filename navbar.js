@@ -138,6 +138,7 @@ const navMenu = async (sec) => {
             icon.append(select_num);
             icons_div.append(icon);
         };
+        icons_div.append(icon);
 
     })
     const icon_a_wrapper = document.createElement("div");

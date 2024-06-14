@@ -24,7 +24,9 @@
         "Use the code MAY35  to get a 35% off - Valid on items with ★ ►"
     ],
     "Man": {
-        "hiro_wrapper":["Photos/hiro_man.jpg"],
+        "hiro_wrapper": [
+            "Photos/hiro_man.jpg"
+        ],
         "CLOTHING": {
             "T-SHİRTS": [
                 {
@@ -62,19 +64,19 @@
             ],
             "SHİRTS": [
                 {
-                    "name": "OUR LEGACY",
-                    "İmg": "#",
-                    "Price": "70.00 azn"
+                    "name": "MAISON KITSUNÉ",
+                    "İmg": "Photos/SHİRTS1.jpeg",
+                    "Price": "€ 120.00"
                 },
                 {
-                    "name": "BURBERRY",
-                    "İmg": "#",
-                    "Price": "70.00 azn"
+                    "name": "DOLCE & GABBANA",
+                    "İmg": "Photos/SHİRTS2.jpeg",
+                    "Price": "€ 130.00"
                 },
                 {
-                    "name": "VALENTINO",
-                    "İmg": "#",
-                    "Price": "70.00 azn"
+                    "name": "FRED PERRİ",
+                    "İmg": "Photos/SHİRTS3.jpeg",
+                    "Price": "€ 100.00"
                 },
                 {
                     "name": "TOM FORD",
@@ -187,10 +189,14 @@
         }
     },
     "Woman": {
-        "hiro_wrapper":["Photos/hiro_woman.jpg"]
+        "hiro_wrapper": [
+            "Photos/hiro_woman.jpg"
+        ]
     },
     "Baby": {
-        "hiro_wrapper":["Photos/hiro_baby.jpg"]
+        "hiro_wrapper": [
+            "Photos/hiro_baby.jpg"
+        ]
     },
     "Menu": [
         {
