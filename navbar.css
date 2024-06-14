@@ -76,10 +76,6 @@
     width: 100%;
     padding: 0  50px;
 }
-.header2>.nav2>.clothing_div>h5{
-  font-size: 12px;
-  color: white;
-}
 .header2>.img_logo{
     width: 20%;
     object-fit: contain;
@@ -101,34 +97,47 @@
   gap: 10px;
   position: relative;
 }
-.header2>.nav2>.icon_a_wrapper>.a_div{
+.header2>.nav2>.icon_a_wrapper>.nav_ul{
   display: flex;
-  gap: 10px;
   align-items: center;
 }
-.header2>.nav2>.icon_a_wrapper>.a_div>a{
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li>a{
     font-size: 13px;
     cursor: pointer;
     padding: 20px 10px;
     word-spacing: normal;
     
 }
-.header2>.nav2>.icon_a_wrapper>.a_div>.clothing_div,.FOOTWEAR_div{
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li>.clothing_div,.FOOTWEAR_div{
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   width: 180px;
   padding: 20px;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.855);
   position: absolute;
   left:80px;
-  transform: translate(0,80%);
+  top: 0;
+  justify-content: space-between;
+  transform: translate(0,66%);
+  transition: .5s;
+  opacity: 0;
+  outline: 2px dashed #333333d1;
 }
-.header2>.nav2>.icon_a_wrapper>.a_div>.FOOTWEAR_div{
-  background-color: rgb(41, 0, 128);
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li:hover .clothing_div{
+  opacity: 1;
+}
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li>.FOOTWEAR_div{
   position: absolute;
+  width: 200px;
   left:180px;
-  transform: translate(0,67%);
+  transform: translate(0,48%);
+}
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li:hover .FOOTWEAR_div{
+  opacity: 1;
+}
+.header2>.nav2>.icon_a_wrapper>.nav_ul>li>.clothing_div,.FOOTWEAR_div>h5{
+  cursor: pointer;
 }
 
 .header2>.nav2>.icon_a_wrapper>.icons_div>i{

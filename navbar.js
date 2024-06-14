@@ -20,7 +20,7 @@ const navMenu = async (sec) => {
     Man_array_CLOTHING = (await (await fetch('baza.json')).json()).Man.CLOTHING;
     let Man_array_FOOTWEAR = [];
     Man_array_FOOTWEAR = (await (await fetch('baza.json')).json()).Man.FOOTWEAR;
-   
+
     Gender_array.forEach((element) => {
         const li = document.createElement('li');
         const a = document.createElement('a');
@@ -95,25 +95,36 @@ const navMenu = async (sec) => {
     const logo_img2 = document.createElement("img");
     logo_img2.setAttribute("src", logo);
     logo_img2.className = "img_logo2";
-    const a_div = document.createElement("div");
-    a_div.className = "a_div";
+    const nav_ul = document.createElement("ul");
+    nav_ul.className = "nav_ul";
     nav2.append(logo_img2)
     Menu_array.forEach((element) => {
+        const a_li = document.createElement("li");
         const a = document.createElement("a");
         a.setAttribute("href", element.linkMenu);
         a.textContent = element.MenuSelect;
-        a_div.append(a);
+        a_li.append(a);
+        nav_ul.append(a_li);
+        if (element.MenuSelect == "CLOTHING") {
+            for (let category1 in Man_array_CLOTHING) {
+                const categoryTxt1 = document.createElement('h5');
+                categoryTxt1.textContent = category1;
+                clothing_div.append(categoryTxt1)
+                a_li.append(clothing_div)
+            }
+
+        }
+        else if (element.MenuSelect == "FOOTWEAR") {
+
+            for (let category2 in Man_array_FOOTWEAR) {
+                const categoryTxt2 = document.createElement('h5');
+                categoryTxt2.textContent = category2;
+                FOOTWEAR_div.append(categoryTxt2)
+                a_li.append(FOOTWEAR_div)
+            }
+        }
     })
-    for (let category1 in Man_array_CLOTHING) {
-        const categoryTxt1 = document.createElement('h5');
-        categoryTxt1.textContent = category1;
-        clothing_div.append(categoryTxt1)
-    }
-    for (let category2 in Man_array_FOOTWEAR) {
-        const categoryTxt2 = document.createElement('h5');
-        categoryTxt2.textContent = category2;
-        FOOTWEAR_div.append(categoryTxt2)
-    }
+
     const icons_div = document.createElement("div");
     icons_div.className = "icons_div";
     Menu_icon_array.forEach((iconName) => {
@@ -131,20 +142,19 @@ const navMenu = async (sec) => {
     })
     const icon_a_wrapper = document.createElement("div");
     icon_a_wrapper.className = "icon_a_wrapper";
-    a_div.append(clothing_div,FOOTWEAR_div)
-    icon_a_wrapper.append(a_div,icons_div);
+    icon_a_wrapper.append(nav_ul, icons_div);
     nav2.append(icon_a_wrapper);
 
     header2.append(logo_img, nav2);
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         // Yatay ve dikey kaydırma konumlarını al
         let scrollTop = window.scrollY || document.documentElement.scrollTop;
-        if(scrollTop>130){
+        if (scrollTop > 130) {
             head2.classList.add("row");
             logo_img2.style.opacity = "1";
             logo_img.style.opacity = "0";
         }
-        else if(scrollTop<40){
+        else if (scrollTop < 40) {
             head2.classList.remove("row");
             logo_img2.style.opacity = "0";
             logo_img.style.opacity = "1";
