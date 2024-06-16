@@ -46,9 +46,10 @@ const selectMenu = async (sec) => {
     });
     Selection_forher.append(product_forher);
     main_section.append(hiro_img,Selection_text, Selection_forher);
-    Selection_forher.addEventListener('mousemove', function(e) {
+    ///////Mousun  x sini götürün traslete ile deyişirik  koda deyme!!!!!!/////////////////
+   /* Selection_forher.addEventListener('mousemove', function(e) {
         var mouseX = e.clientX; // Mouse'un X koordinatı
         product_forher.style.transform = `translate( ${-mouseX}px)`;
-    });
+    });*/
     
 }

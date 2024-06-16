@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    transition: .5s;
     overflow: hidden;
 }
 
@@ -38,9 +39,26 @@
     align-items: center;
     gap: 10px;
     padding: 10px 0;
+    animation: infinite;
+    animation-name: praductAnimation;
+    animation-duration: 20s;
+
     transition: 1s;
 }
-
+@keyframes praductAnimation{
+    
+  0%   {transform: translate(0%);}
+  10%   {transform: translate(10%);}
+  20%   {transform: translate(15%);}
+  30%  {transform: translate(20%);}
+  40%  {transform: translate(25%);}
+  50%  {transform: translate(33%);}
+  60%  {transform: translate(25%);}
+  70%  {transform: translate(20%);}
+  80%  {transform: translate(15%);}
+  90%  {transform: translate(10%);}
+  100%  {transform: translate(0%);}
+}
 
 .main_section>.Selection_forher>.product_forher>.product_div {
     width: 270px;
