@@ -42,6 +42,7 @@
     animation: infinite;
     animation-name: praductAnimation;
     animation-duration: 20s;
+    animation-duration: 20s;
     transition: 1s;
 }
 @keyframes praductAnimation{
